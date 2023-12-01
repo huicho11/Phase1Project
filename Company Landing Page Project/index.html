@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <style>
+
+    
+
+            @mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+Usage
+.custom-container {
+  @include make-container();
+}
+
+.nav-item >a{
+  color: white
+  ;
+}
+            
+                </style>
+
+<!--4. Navigation Bar with Flexbox-->
+
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/Liberty.png" alt="Liberty Fianzas" height="70"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+</head>
+
+<body>
+    
+
+ 
+
+    <!--5. Hero Section with Flexbox-->
+    
+
+    <div class="container">
+        <section class="hero">
+        <div class="row g-0 text-center">
+            
+  <div class="col-sm-6 col-md-8"><h1>Get Started in Liberty Fianzas Now!</h1> <button type="button" class="btn btn-primary">Click Here!</button></div>
+  <img src="images/libertyWallpaper.jpg" class="img-fluid" alt="...">
+</div>
+  </div>
+
+
+
+  
+  
+</section>
+</div>
+<br>
+<br>
+
+<!--6. Services Section-->
+<section class="services">
+ 
+    
+    <div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">¿Why to be a broker in Liberty Fianzas?</h5>
+        <p class="card-text">We provide personalized attention to our agents to ensure proper bond issuance. We offer an attractive commission plan, bonuses, and incentives, as well as highly competitive and preferential rates for our clients. We have 10 Service Offices. We offer training programs. We provide legal advice in case of a claim. We grant bonding lines and special considerations for your Guarantors.</p>
+        <a href="#" class="btn btn-primary">Register</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">
+What are the requirements to contract a bond?</h5>
+<p class="card-text">Minimum Requirements for an Individual: Guarantor or Joint Obligor
+
+Original documents to be submitted:
+
+Multiple Bonding Agreement Contract and, if applicable, Addendums and the required and signed annexes
+Requested and signed Personal Interview
+Requested and signed Credit Bureau Form
+Simple and legible copies to be submitted:
+
+Official Identification
+Proof of address with a maximum validity of 3 months
+Copy of the Tax Identification Card (R.F.C.)
+If it is an Individual (with business activity), it must also submit:
+
+Annual Income Tax Return for the immediate previous year
+Recent partial Financial Statements signed by an Accountant
+License of the Accountant signing the partial Financial Statements
+Note: For more information, inquire at the nearest office to your location.</p>
+        <a href="#" class="btn btn-primary">Review Information</a>
+      </div>
+    </div>
+  </div>
+  
+
+ 
+</div>
+
+  </section>
+
+  <br>
+  <br>
+<!--7. About Section-->
+  <section class="about" >
+    <div class="container">
+     
+
+
+<div class="card">
+  <div class="card-header">
+    <h2 class="text-center">Company information</h2>   
+  </div>
+  <div class="card-body">
+  
+    <p class="card-text">Company with outstanding results in the Mexican Surety Sector, with a rising trajectory and acquired by Liberty Mutual Group, global leaders in their Surety division (Liberty Mutual Surety), changing its name to Liberty Fianzas in 2016.
+Liberty Fianzas has employees who stand out for their great professionalism and experience in the Surety sector, offering timely and quality service to all our clients, maintaining the commitment to confidentiality to preserve the culture that distinguishes Liberty Mutual Group worldwide for "Doing the right thing."</p>
+   
+  </div>
+</div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <!--8. Footer with Flexbox-->
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container">
+                    <h1>Contact Information</h1>
+                    <ul class="list-group">
+                        <li class="list-group-item">Name: Luis</li>
+                        <li class="list-group-item">Email: luis@example.com</li>
+                        <li class="list-group-item">Phone: +1234567890</li>
+                        <li class="list-group-item">Address: 123 Main St, City, Country</li>
+                    </ul>
+                </div>
+            </div>
+    
+
+
+
+        </div>
+    </div>
+<br>
+<br>
+
+    <!--otro contenedor-->
+
+    <div class="container">
+    <div class="col-md-6 d-flex justify-content-end">
+    
+    
+    <div class="list-group list-group-horizontal">
+        <a href="#" class="list-group-item">
+            Facebook <img src="images/facebook.png" alt="Facebook" height="50" />
+        </a>
+        <br>
+        <a href="#" class="list-group-item">
+            Twitter <img src="images/X icon.png" alt="X" height="50" />
+        </a>
+
+    </div>
+</div>
+    </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

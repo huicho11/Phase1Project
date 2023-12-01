@@ -1,0 +1,166 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: gainsboro;
+}
+
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .card-container {
+    flex-direction: column;
+    text-align: center;
+
+  }
+}
+
+/* this class it's made with flexbox */
+.flex-container {
+  display: flex;
+  background-color: #f2f2f2;
+  flex-direction: row;  
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  margin: 10px;
+  list-style: none;
+}
+
+
+.flex-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container ul li {
+  display: inline-block;
+}
+
+.flex-container ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.flex-container ul li a:hover {
+  background-color: white;
+}
+
+
+
+
+
+.flex-container>a {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+
+
+}
+
+
+
+img {
+  border-radius: 50%;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+
+/* this is a flexbox for listing Dio's songs*/
+.flex-item {
+  background: black;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*line-height: 150px;*/
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* this is the card container flexbox with a responsive desing */
+.card-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  flex-direction: row;
+  flex-grow: 1;
+  
+}
+
+.card-container>div {
+  background-color: black;
+  color: white;
+  width: 50px;
+  margin: 25px;
+  text-align: center;
+  line-height: 75px;
+
+  flex-grow: 1;
+}
+
+.card-container div figure {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-container div figure p {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.card-container :hover {
+  background-color: #ddd;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}

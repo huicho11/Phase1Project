@@ -1,0 +1,105 @@
+/*** CSS3 ***/
+/*** bio.css ***/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+
+    body{
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        background-color: whitesmoke;
+
+
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .profile-img {
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+      }
+
+      h1 {
+        margin-top: 10px;
+      }
+      .bio, .projects {
+        margin-bottom: 20px;
+        float: left;
+  width: 50%;
+  padding: 15px;
+  background: white;
+        
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+p {
+
+    white-space: pre-wrap;
+}
+
+      
+/* this animates the photo bio*/
+      @keyframes myAnim {
+        0% {
+            animation-timing-function: ease-in;
+            opacity: 1;
+            transform: translateY(45px);
+        }
+    
+        24% {
+            opacity: 1;
+        }
+    
+        40% {
+            animation-timing-function: ease-in;
+            transform: translateY(24px);
+        }
+    
+        65% {
+            animation-timing-function: ease-in;
+            transform: translateY(12px);
+        }
+    
+        82% {
+            animation-timing-function: ease-in;
+            transform: translateY(6px);
+        }
+    
+        93% {
+            animation-timing-function: ease-in;
+            transform: translateY(4px);
+        }
+    
+        25%,
+        55%,
+        75%,
+        87% {
+            animation-timing-function: ease-out;
+            transform: translateY(0px);
+        }
+    
+        100% {
+            animation-timing-function: ease-out;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
